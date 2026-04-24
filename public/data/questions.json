@@ -2722,7 +2722,7 @@
         "text": "java.io.File"
       }
     ],
-    "correctOptionId": "c",
+    "correctOptionId": "d",
     "explanation": "La clase java.io.File representa rutas de ficheros y directorios en Java.",
     "optionExplanations": {}
   },
