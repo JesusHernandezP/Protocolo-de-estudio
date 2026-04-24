@@ -10,28 +10,28 @@ export const UI = {
     app.innerHTML = `
       <section id="home-section" class="home-hero flex flex-col items-center justify-center min-h-[100dvh] w-full px-4 md:px-8 overflow-x-hidden">
           <div class="flex flex-col items-center justify-center text-center w-full max-w-6xl mx-auto">
-              <div class="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 mb-6 sm:mb-8 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-300 text-[10px] sm:text-xs md:text-sm font-bold tracking-widest uppercase whitespace-nowrap max-w-full text-center">
-                PROTOCOLO DE ESTUDIO ACTIVO
+              <div class="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 mb-6 sm:mb-8 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-300 text-[10px] sm:text-xs md:text-sm font-semibold tracking-wide uppercase whitespace-nowrap max-w-full text-center">
+                PLATAFORMA DE ESTUDIO
               </div>
-              <h1 class="text-4xl sm:text-6xl md:text-8xl lg:text-[8rem] font-black font-display text-glow uppercase italic mb-6 leading-[1.1] sm:leading-none tracking-tight">
-                LOS JUEGOS <br class="sm:hidden"> DEL <span class="text-cyan">DAM</span>
+              <h1 class="text-4xl sm:text-6xl md:text-8xl lg:text-[8rem] font-black font-display uppercase tracking-tight mb-6 leading-[1.1] sm:leading-none text-slate-100">
+                Simulacro de <br class="sm:hidden"> <span class="text-blue-500">EXAMENES</span>
               </h1>
               <p class="text-slate-400 text-sm sm:text-xl md:text-2xl font-light mb-10 sm:mb-12 max-w-[95%] sm:max-w-2xl lg:max-w-3xl mx-auto leading-relaxed text-balance">
-                Una experiencia inmersiva para dominar tus disciplinas.
+                Desarrollo de Aplicaciones Multiplataforma.
               </p>
-              <button class="btn-futuristic scale-90 sm:scale-100" onclick="location.hash='#/modules'">INICIAR PROTOCOLO</button>
+              <button class="btn-futuristic scale-90 sm:scale-100" onclick="location.hash='#/modules'">COMENZAR ESTUDIO</button>
           </div>
       </section>
 
       <section id="modules-section" class="py-20 min-h-[100dvh] flex flex-col justify-center px-4 md:px-8 w-full max-w-7xl mx-auto">
           <div class="flex flex-col md:flex-row items-end justify-between mb-12 gap-6">
               <div>
-                  <h2 class="font-display text-4xl font-bold mb-2 uppercase italic text-glow">Terminal de Prácticas</h2>
-                  <div class="h-1 w-20 bg-cyan rounded-full"></div>
+                  <h2 class="font-display text-4xl font-bold mb-2 tracking-tight text-white">Módulos de Práctica</h2>
+                  <div class="h-1 w-20 bg-blue-500 rounded-full"></div>
               </div>
-              <p class="font-mono text-sm text-cyan flex items-center gap-2">
-                <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse" style="animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;"></span>
-                Sistemas Operativos en Línea
+              <p class="font-mono text-sm text-slate-400 flex items-center gap-2">
+                <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
+                Sistema en Línea
               </p>
           </div>
           <div id="subjects" class="subjects-grid">
@@ -43,10 +43,10 @@ export const UI = {
                           <div class="text-${s.color}"><i data-lucide="${s.icon}"></i></div>
                           <span class="font-mono text-[10px] opacity-50">${s.code}</span>
                       </div>
-                      <h3 class="font-display text-2xl font-bold mb-1">${s.name}</h3>
-                      <div class="text-[10px] text-cyan uppercase tracking-widest mb-4">SIMULADOR ACTIVO</div>
+                      <h3 class="font-display text-lg font-semibold mb-1">${s.name}</h3>
+                      <div class="text-[10px] text-slate-500 uppercase font-medium tracking-wide mb-4">SIMULADOR</div>
                       <div class="progress-bar">
-                          <div class="progress-fill bg-cyan" style="width: 0%"></div>
+                          <div class="progress-fill bg-blue-500" style="width: 0%"></div>
                       </div>
                   </div>
                 `;
@@ -60,15 +60,15 @@ export const UI = {
   renderSubject(subject) {
     app.innerHTML = `
       <div class="py-10 px-4">
-          <button class="text-cyan mb-8 font-mono hover:text-white transition-colors" onclick="location.hash='#/modules'">< VOLVER A MÓDULOS</button>
+          <button class="text-slate-400 mb-8 font-medium hover:text-white transition-colors" onclick="location.hash='#/modules'">← Volver a módulos</button>
           <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6 border-b border-white/10 pb-10">
               <div>
-                  <h1 class="text-6xl font-black font-display uppercase italic">${subject.name}</h1>
+                  <h1 class="text-4xl text-white font-bold font-display tracking-tight">${subject.name}</h1>
                   <p class="text-slate-400 mt-2">${subject.description}</p>
               </div>
-              <div class="text-right font-mono text-cyan">
+              <div class="text-right font-mono text-slate-500 text-sm">
                   <div>CÓDIGO: ${subject.code}</div>
-                  <div>SISTEMA: ESTABLE</div>
+                  <div class="text-emerald-500 mt-1">ESTADO: ACTIVO</div>
               </div>
           </div>
 
@@ -86,8 +86,8 @@ export const UI = {
                       </div>
                       <div class="flex gap-3">
                           ${prog && prog.failedQuestionIds.length > 0 ? 
-                            `<button class="btn-futuristic py-2 px-4 border-yellow text-xs" onclick="location.hash='#/review/${m.id}'">REPASAR ERRORES</button>` : ''}
-                          <button class="btn-futuristic py-2 px-4 text-xs" onclick="location.hash='#/quiz/${m.id}'">INICIAR QUIZ</button>
+                            `<button class="btn-futuristic py-2 px-4 border-yellow text-xs" onclick="location.hash='#/review/${m.id}'">REVISAR ERRORES</button>` : ''}
+                          <button class="btn-futuristic py-2 px-4 text-xs bg-blue-600 text-white border-0 hover:bg-blue-700 hover:text-white shadow-md shadow-blue-500/20" onclick="location.hash='#/quiz/${m.id}'">COMENZAR EXAMEN</button>
                       </div>
                   </div>
                 `;
@@ -108,18 +108,18 @@ export const UI = {
               <button class="text-slate-400 font-mono hover:text-white transition-colors text-xs flex items-center gap-2" onclick="location.hash='#/subject/${subjectId}'">
                   <i data-lucide="arrow-left" class="w-4 h-4"></i> VOLVER AL MÓDULO
               </button>
-              <button class="btn-futuristic py-2 px-4 text-xs border-red-500/50 bg-red-500/10 text-red-400 hover:bg-red-500/20 hover:text-red-300 transition-all font-bold tracking-widest" onclick="location.hash='#/subject/${subjectId}'">
-                 SALIR DEL QUIZ
+              <button class="btn-futuristic py-2 px-4 text-xs border-slate-700 bg-transparent text-slate-300 hover:bg-red-500/10 hover:text-red-400 hover:border-red-500/50 transition-all font-medium" onclick="location.hash='#/subject/${subjectId}'">
+                 SALIR DEL EXAMEN
               </button>
           </div>
           
-          <div class="flex justify-between items-center mb-6 font-mono text-xs text-cyan">
-              <span>MOD: ${moduleTitle}</span>
-              <span>PREGUNTA ${currentIndex + 1} DE ${total}</span>
+          <div class="flex justify-between items-center mb-6 font-medium text-sm text-slate-400">
+              <span>Módulo: ${moduleTitle}</span>
+              <span class="font-mono">Pregunta ${currentIndex + 1} de ${total}</span>
           </div>
           
           <div class="progress-bar mb-10 h-1">
-              <div class="progress-fill bg-cyan" style="width: ${progress}%"></div>
+              <div class="progress-fill bg-blue-500" style="width: ${progress}%"></div>
           </div>
 
           <div class="glass-panel p-10 mb-8">
@@ -128,19 +128,19 @@ export const UI = {
               <div id="options-container">
                   ${question.options.map(opt => `
                     <div class="quiz-option glass-panel" onclick="window.handleSelectOption('${opt.id}')" data-id="${opt.id}">
-                        <span class="font-mono mr-4 text-cyan opacity-50">${opt.id.toUpperCase()}.</span> ${opt.text}
+                        <span class="font-mono mr-4 text-slate-500 font-medium">${opt.id.toUpperCase()}.</span> ${opt.text}
                     </div>
                   `).join('')}
               </div>
 
               <div id="feedback-panel" class="feedback-panel border-t border-white/10 mt-10">
-                  <h4 id="feedback-title" class="font-display font-bold uppercase mb-2"></h4>
-                  <p id="option-explanation" class="text-sm italic mb-4"></p>
-                  <div class="bg-cyan/5 p-4 rounded border-l-2 border-cyan text-sm">
-                      <strong>SISTEMA:</strong> <span id="general-explanation"></span>
+                  <h4 id="feedback-title" class="font-display font-semibold uppercase mb-2"></h4>
+                  <p id="option-explanation" class="text-sm text-slate-300 mb-4"></p>
+                  <div class="bg-blue-500/10 p-4 rounded-lg border-l-4 border-blue-500 text-sm">
+                      <strong class="text-blue-400">Explicación:</strong> <span class="text-slate-300" id="general-explanation"></span>
                   </div>
-                  <button id="next-btn" class="btn-futuristic mt-8 w-full" style="display:none">SIGUIENTE</button>
-                  <button id="finish-btn" class="btn-futuristic mt-8 w-full border-pink" style="display:none">FINALIZAR PROTOCOLO</button>
+                  <button id="next-btn" class="btn-futuristic mt-8 w-full bg-blue-600 text-white font-medium hover:bg-blue-700" style="display:none">Siguiente pregunta</button>
+                  <button id="finish-btn" class="btn-futuristic mt-8 w-full border-blue-500 text-blue-400 font-medium hover:bg-blue-500/10" style="display:none">Finalizar examen</button>
               </div>
           </div>
       </div>
@@ -165,8 +165,8 @@ export const UI = {
       });
 
       feedbackPanel.style.display = 'block';
-      feedbackTitle.innerText = result.isCorrect ? 'EXCELENTE - TRANSMISIÓN CORRECTA' : 'ERROR DE TRANSMISIÓN - INCORRECTA';
-      feedbackTitle.className = result.isCorrect ? 'font-display font-bold uppercase mb-2 text-green-400' : 'font-display font-bold uppercase mb-2 text-red-500';
+      feedbackTitle.innerText = result.isCorrect ? 'Respuesta correcta' : 'Respuesta incorrecta';
+      feedbackTitle.className = result.isCorrect ? 'font-display font-semibold mb-2 text-emerald-400' : 'font-display font-semibold mb-2 text-red-400';
       optionExp.innerText = result.optionExplanation;
       generalExp.innerText = result.explanation;
 
@@ -189,27 +189,27 @@ export const UI = {
     const isSuccess = stats.percentage >= 50;
     app.innerHTML = `
       <div class="max-w-2xl mx-auto py-20 px-4 text-center">
-          <div class="font-display text-glow text-6xl mb-4 ${isSuccess ? 'text-green-400' : 'text-red-500'}">
+          <div class="font-display font-bold text-6xl mb-4 ${isSuccess ? 'text-emerald-400' : 'text-red-400'}">
               ${stats.percentage}%
           </div>
-          <h2 class="text-3xl font-bold uppercase mb-2">ANÁLISIS COMPLETADO</h2>
-          <p class="text-slate-400 mb-10">${isSuccess ? 'Protocolo exitoso. Conocimientos asimilados.' : 'Conexión inestable. Se recomienda revisión del módulo.'}</p>
+          <h2 class="text-2xl font-bold tracking-tight mb-2 text-white">EXAMEN COMPLETADO</h2>
+          <p class="text-slate-400 mb-10">${isSuccess ? 'Has superado la prueba de conocimientos con éxito.' : 'No has alcanzado la puntuación mínima. Te recomendamos repasar el módulo.'}</p>
 
           <div class="grid grid-cols-2 gap-4 mb-12">
               <div class="glass-panel p-6">
-                  <div class="text-slate-500 text-xs uppercase mb-1">Aciertos</div>
-                  <div class="text-2xl font-bold text-green-400 font-display">${stats.score}</div>
+                  <div class="text-slate-500 font-medium text-sm mb-1">Aciertos</div>
+                  <div class="text-3xl font-semibold text-emerald-400 font-display">${stats.score}</div>
               </div>
               <div class="glass-panel p-6">
-                  <div class="text-slate-500 text-xs uppercase mb-1">Errores</div>
-                  <div class="text-2xl font-bold text-red-500 font-display">${stats.failedCount}</div>
+                  <div class="text-slate-500 font-medium text-sm mb-1">Errores</div>
+                  <div class="text-3xl font-semibold text-red-400 font-display">${stats.failedCount}</div>
               </div>
           </div>
 
           <div class="flex flex-col gap-4">
-              <button class="btn-futuristic" onclick="location.hash='#/quiz/${moduleId}'">REPETIR PROTOCOLO</button>
-              ${stats.failedCount > 0 ? `<button class="btn-futuristic border-yellow" onclick="location.hash='#/review/${moduleId}'">REPASAR ERRORES</button>` : ''}
-              <button class="btn-futuristic border-slate-700" onclick="location.hash='#/modules'">VOLVER A MÓDULOS</button>
+              <button class="btn-futuristic bg-blue-600 text-white border-0 hover:bg-blue-700" onclick="location.hash='#/quiz/${moduleId}'">REPETIR EXAMEN</button>
+              ${stats.failedCount > 0 ? `<button class="btn-futuristic border-yellow text-yellow-500 hover:bg-yellow-500/10" onclick="location.hash='#/review/${moduleId}'">REVISAR ERRORES</button>` : ''}
+              <button class="btn-futuristic border-slate-700 text-slate-300 hover:bg-slate-800" onclick="location.hash='#/modules'">VOLVER A MÓDULOS</button>
           </div>
       </div>
     `;
