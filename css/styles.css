@@ -1,0 +1,185 @@
+:root {
+  --bg-dark: #050508;
+  --bg-card: rgba(15, 15, 25, 0.6);
+  --neon-cyan: #00f3ff;
+  --neon-purple: #bc13fe;
+  --neon-pink: #ec4899;
+  --neon-orange: #f97316;
+  --neon-blue: #3b82f6;
+  --neon-green: #10b981;
+  --neon-violet: #6366f1;
+  --neon-yellow: #eab308;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --font-display: 'Orbitron', sans-serif;
+  --font-sans: 'Space Grotesk', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* Background layers */
+#starfield {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #050508 100%);
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: 
+    linear-gradient(rgba(18,16,16,0) 50%, rgba(0,0,0,0.25) 50%),
+    linear-gradient(90deg, rgba(255,0,0,0.06), rgba(0,255,0,0.02), rgba(0,0,255,0.06));
+  background-size: 100% 4px, 3px 100%;
+  pointer-events: none;
+  z-index: 100;
+  opacity: 0.3;
+}
+
+.scanlines {
+  position: fixed;
+  inset: 0;
+  border: 20px solid rgba(15, 23, 42, 0.5);
+  pointer-events: none;
+  z-index: 99;
+}
+
+/* Layout */
+#app {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Components */
+.glass-panel {
+  background: var(--bg-card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+}
+
+.btn-futuristic {
+  font-family: var(--font-display);
+  background: transparent;
+  color: white;
+  border: 1px solid var(--neon-cyan);
+  padding: 1rem 2rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  clip-path: polygon(10% 0, 100% 0, 100% 70%, 90% 100%, 0 100%, 0 30%);
+}
+
+.btn-futuristic:hover {
+  background: rgba(0, 243, 255, 0.1);
+  box-shadow: 0 0 20px rgba(0, 243, 255, 0.4);
+}
+
+/* Animations */
+@keyframes glow {
+  from { text-shadow: 0 0 10px var(--neon-cyan); }
+  to { text-shadow: 0 0 20px var(--neon-cyan), 0 0 30px var(--neon-cyan); }
+}
+
+.text-glow {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+/* Subject Cards Grid */
+.subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.card {
+  padding: 1.5rem;
+  border-radius: 0;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Colors Utilities */
+.border-cyan { border-color: var(--neon-cyan) !important; }
+.border-purple { border-color: var(--neon-purple) !important; }
+.border-pink { border-color: var(--neon-pink) !important; }
+.border-orange { border-color: var(--neon-orange) !important; }
+.border-blue { border-color: var(--neon-blue) !important; }
+.border-green { border-color: var(--neon-green) !important; }
+.border-violet { border-color: var(--neon-violet) !important; }
+.border-yellow { border-color: var(--neon-yellow) !important; }
+
+.text-cyan { color: var(--neon-cyan); }
+.text-purple { color: var(--neon-purple); }
+/* ... more colors as needed ... */
+
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  background: rgba(255,255,255,0.1);
+  margin-top: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  transition: width 0.5s ease;
+}
+
+/* Quiz Interface */
+.quiz-option {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.quiz-option:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.quiz-option.correct {
+  border-color: var(--neon-green);
+  background: rgba(16, 185, 129, 0.2);
+}
+
+.quiz-option.incorrect {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.2);
+}
+
+.feedback-panel {
+  padding: 1.5rem;
+  margin-top: 2rem;
+  display: none;
+}
