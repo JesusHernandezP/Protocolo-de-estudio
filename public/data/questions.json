@@ -8149,7 +8149,7 @@
         "text": "Necesariamente heredar de JFrame"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "d",
     "explanation": "Los componentes pueden ser de muchos tipos; heredar de JFrame no es una condición para ser un componente.",
     "optionExplanations": {}
   },
@@ -11605,7 +11605,7 @@
         "text": "Es inválido"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Kotlin permite declarar propiedades en interfaces que las clases hijas deben sobrescribir.",
     "optionExplanations": {}
   },
@@ -11740,7 +11740,7 @@
         "text": "No compila"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "La palabra clave 'object' declara una clase y crea una única instancia de la misma (patrón Singleton).",
     "optionExplanations": {}
   },
@@ -11794,7 +11794,7 @@
         "text": "Declara Activity"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "La anotación @Composable indica que la función transforma datos en nodos de la interfaz.",
     "optionExplanations": {}
   },
@@ -11821,7 +11821,7 @@
         "text": "Solo ejecuta EdgeToEdge"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "setContent es el punto de entrada para definir la UI de la Activity usando Compose.",
     "optionExplanations": {}
   },
@@ -11848,7 +11848,7 @@
         "text": "Ejecuta al iniciar"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Es el método estándar para definir la acción que ocurre cuando el usuario pulsa el botón.",
     "optionExplanations": {}
   },
@@ -11875,7 +11875,7 @@
         "text": "Envía broadcast"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Es un Intent implícito que solicita al sistema realizar una acción sobre un dato (URI).",
     "optionExplanations": {}
   },
@@ -11902,7 +11902,7 @@
         "text": "Evita acceso"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "c",
     "explanation": "wrap_content hace que la vista sea tan grande como lo que contiene en su interior.",
     "optionExplanations": {}
   },
@@ -11956,7 +11956,7 @@
         "text": "Crea servicio"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "c",
     "explanation": "Se usa para pasar información entre componentes (como de una Activity a otra).",
     "optionExplanations": {}
   },
@@ -12010,7 +12010,7 @@
         "text": "Intents implícitos"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Optimiza el rendimiento al reciclar los contenedores de las vistas de la lista.",
     "optionExplanations": {}
   },
@@ -12064,7 +12064,7 @@
         "text": "Error compilación"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Es donde se define y crea la jerarquía de vistas de la interfaz del fragmento.",
     "optionExplanations": {}
   },
@@ -12091,7 +12091,7 @@
         "text": "Cierra fragmentos"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "c",
     "explanation": "Realiza una transacción para actualizar dinámicamente la UI de la Activity con un fragmento.",
     "optionExplanations": {}
   },
@@ -12118,7 +12118,7 @@
         "text": "FrameLayout"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Alinea a sus hijos uno debajo de otro siguiendo el eje Y.",
     "optionExplanations": {}
   },
@@ -12172,7 +12172,7 @@
         "text": "Envía broadcast"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "SharedPreferences guarda datos simples de forma permanente en un archivo XML interno.",
     "optionExplanations": {}
   },
@@ -12226,7 +12226,7 @@
         "text": "Llamadas internas"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Define qué Activity se ejecuta cuando el usuario pulsa el icono de la aplicación en el menú del móvil.",
     "optionExplanations": {}
   },
@@ -12280,7 +12280,7 @@
         "text": "Evita compilación"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Permite ver el diseño sin tener que ejecutar la aplicación en el emulador o dispositivo real.",
     "optionExplanations": {}
   },
@@ -12442,7 +12442,7 @@
         "text": "Solo acepta Strings"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Kotlin utiliza Smart Casts al verificar tipos con el operador 'is' dentro de un when o if.",
     "optionExplanations": {}
   },
@@ -12496,7 +12496,7 @@
         "text": "Propiedad calculada con getter personalizado"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "d",
     "explanation": "No almacena un valor en memoria, sino que lo calcula dinámicamente cada vez que se invoca.",
     "optionExplanations": {}
   },
@@ -12523,7 +12523,7 @@
         "text": "0"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "En Kotlin, la división entre dos enteros (Int) produce un resultado entero, truncando los decimales.",
     "optionExplanations": {}
   },
@@ -12685,7 +12685,7 @@
         "text": "Declara función de extensión"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "d",
     "explanation": "Las funciones de extensión permiten añadir funcionalidades a clases sin herencia ni decoración.",
     "optionExplanations": {}
   },
@@ -12793,7 +12793,7 @@
         "text": "Sin efecto"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "c",
     "explanation": "Weight distribuye el espacio sobrante del contenedor entre los hijos según su ratio.",
     "optionExplanations": {}
   },
@@ -12820,7 +12820,7 @@
         "text": "Nueva Activity"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Permite enviar datos de vuelta a una actividad que fue lanzada con la intención de recibir respuesta.",
     "optionExplanations": {}
   },
@@ -12874,7 +12874,7 @@
         "text": "Estructura básica de pantalla con zonas de UI"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "d",
     "explanation": "Implementa la estructura visual básica de Material Design (TopBar, BottomBar, Fab).",
     "optionExplanations": {}
   },
@@ -12928,7 +12928,7 @@
         "text": "Sin efecto"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Define el nivel mínimo de API que el dispositivo debe tener para poder instalar la aplicación.",
     "optionExplanations": {}
   },
@@ -12955,7 +12955,7 @@
         "text": "Elimina datos"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Es el puente entre una colección de datos (como un Array o List) y la vista de lista.",
     "optionExplanations": {}
   },
@@ -13009,7 +13009,7 @@
         "text": "Permite volver atrás con el botón físico"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "d",
     "explanation": "Guarda el estado de la transacción en la pila para que el usuario pueda revertirla al pulsar 'Atrás'.",
     "optionExplanations": {}
   },
@@ -13036,7 +13036,7 @@
         "text": "Intent implícito"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Permite usar las APIs de la ActionBar clásica sobre un widget Toolbar más flexible.",
     "optionExplanations": {}
   },
@@ -13090,7 +13090,7 @@
         "text": "Error"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Muestra un diálogo al usuario para que seleccione qué aplicación instalada procesará el Intent.",
     "optionExplanations": {}
   },
@@ -13117,7 +13117,7 @@
         "text": "Servidor remoto"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "c",
     "explanation": "SQLite es el motor de base de datos embebido estándar en Android.",
     "optionExplanations": {}
   },
@@ -13144,7 +13144,7 @@
         "text": "px recomendado"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Asegura que los elementos mantengan el mismo tamaño físico aparente en distintos dispositivos.",
     "optionExplanations": {}
   },
@@ -13171,7 +13171,7 @@
         "text": "Dibuja la interfaz dentro del tema"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "d",
     "explanation": "Define la jerarquía de componentes Compose que formarán la UI de la actividad.",
     "optionExplanations": {}
   },
@@ -13225,7 +13225,7 @@
         "text": "No se usa"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "c",
     "explanation": "Permite ejecutar código específico para versiones nuevas manteniendo compatibilidad con las antiguas.",
     "optionExplanations": {}
   },
@@ -13252,7 +13252,7 @@
         "text": "Permite depuración en dispositivo físico"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "d",
     "explanation": "Habilita que el IDE pueda inspeccionar y depurar la aplicación mientras se ejecuta en el hardware.",
     "optionExplanations": {}
   },
@@ -13279,7 +13279,7 @@
         "text": "Base de datos"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Es el índice de la aplicación para el sistema operativo Android.",
     "optionExplanations": {}
   },
@@ -13333,7 +13333,7 @@
         "text": "Broadcast"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Los 'extras' son el mecanismo estándar para transferir información entre actividades mediante Intents.",
     "optionExplanations": {}
   },
@@ -13360,7 +13360,7 @@
         "text": "Excepción"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "c",
     "explanation": "Permite al desarrollador ver trazas de ejecución en la consola de Android Studio sin molestar al usuario.",
     "optionExplanations": {}
   },
@@ -13603,7 +13603,7 @@
         "text": "null"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "c",
     "explanation": "computeIfPresent actualiza el valor asociado a la clave si esta existe, multiplicando 2 * 10.",
     "optionExplanations": {}
   },
@@ -13954,7 +13954,7 @@
         "text": "null"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "simpleName devuelve el nombre de la clase sin el paquete.",
     "optionExplanations": {}
   },
@@ -14008,7 +14008,7 @@
         "text": "Excepción"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "c",
     "explanation": "Utiliza filter para crear una nueva cadena omitiendo caracteres en blanco.",
     "optionExplanations": {}
   },
@@ -14224,7 +14224,7 @@
         "text": "Solo ListView"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Mejora drásticamente el rendimiento al hacer scroll en listas largas.",
     "optionExplanations": {}
   },
@@ -14251,7 +14251,7 @@
         "text": "Solo preferencias"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Evita errores de sintaxis SQL en tiempo de ejecución al validarlos al compilar.",
     "optionExplanations": {}
   },
@@ -14332,7 +14332,7 @@
         "text": "Correo electrónico"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "d",
     "explanation": "Es el patrón estándar para verificar el formato de una dirección de email.",
     "optionExplanations": {}
   },
@@ -14359,7 +14359,7 @@
         "text": "Solo genéricos"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Permite acortar firmas de funciones complejas para mejorar la legibilidad.",
     "optionExplanations": {}
   },
@@ -14440,7 +14440,7 @@
         "text": "Solo subclases"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Limita el acceso al código que forma parte de la misma unidad de compilación.",
     "optionExplanations": {}
   },
@@ -14467,7 +14467,7 @@
         "text": "Delega llamadas automáticamente"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "d",
     "explanation": "Es una característica de Kotlin que implementa el patrón Decorator sin código repetitivo.",
     "optionExplanations": {}
   },
@@ -21595,7 +21595,7 @@
         "text": "Ana 20"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "d",
     "explanation": "Muestra el atributo público nombre y el retorno del método.",
     "optionExplanations": {}
   },
@@ -24862,7 +24862,7 @@
         "text": "Error"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Comprensión anidada para aplanar una matriz.",
     "optionExplanations": {}
   },
@@ -25078,7 +25078,7 @@
         "text": "Añade \n"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Vuelca una colección de cadenas al archivo sin añadir saltos de línea extra.",
     "optionExplanations": {}
   },
@@ -25564,7 +25564,7 @@
         "text": "3 4"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "c",
     "explanation": "Se invoca el método __str__ para la representación textual.",
     "optionExplanations": {}
   },
@@ -26077,7 +26077,7 @@
         "text": "am eating"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Usamos el pasado continuo para una acción en progreso interrumpida por otra en pasado simple.",
     "optionExplanations": {}
   },
@@ -26104,7 +26104,7 @@
         "text": "that"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "c",
     "explanation": "Usamos 'whose' para indicar posesión (cuyo/a).",
     "optionExplanations": {}
   },
@@ -26563,7 +26563,7 @@
         "text": "watching"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Present Continuous para acciones en el momento actual.",
     "optionExplanations": {}
   },
@@ -26914,7 +26914,7 @@
         "text": "that"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "c",
     "explanation": "Posesión: la mujer cuyo hijo es doctor.",
     "optionExplanations": {}
   },
@@ -27346,7 +27346,7 @@
         "text": "had / will"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Third Conditional: If + Past Perfect (had had).",
     "optionExplanations": {}
   },
@@ -27805,7 +27805,7 @@
         "text": "may"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Mustn't indica prohibición.",
     "optionExplanations": {}
   },
@@ -27967,7 +27967,7 @@
         "text": "have / bureaucratic"
       }
     ],
-    "correctOptionId": "b",
+    "correctOptionId": "c",
     "explanation": "Third Conditional.",
     "optionExplanations": {}
   },
@@ -28102,7 +28102,7 @@
         "text": "where"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "c",
     "explanation": "Relativo posesivo.",
     "optionExplanations": {}
   },
@@ -28237,7 +28237,7 @@
         "text": "eating"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Present Continuous.",
     "optionExplanations": {}
   },
@@ -28750,7 +28750,7 @@
         "text": "reading"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "b",
     "explanation": "Passive Voice: Estructura de presente simple pasivo (am/is/are + participio).",
     "optionExplanations": {}
   },
@@ -28912,7 +28912,7 @@
         "text": "where"
       }
     ],
-    "correctOptionId": "a",
+    "correctOptionId": "c",
     "explanation": "Relative Clause: 'Whose' indica posesión (cuyo marido).",
     "optionExplanations": {}
   },
