@@ -7,10 +7,26 @@
     "description": "Technical Documentation & Communication in International Environments.",
     "icon": "globe",
     "modules": [
-      {"id": "english-s1", "title": "Batería 1: Gramática y Sintaxis Básica", "questionsCount": 30},
-      {"id": "english-s2", "title": "Batería 2: Consolidación Gramatical", "questionsCount": 30},
-      {"id": "english-s3", "title": "Batería 3: Estructuras Intermedias", "questionsCount": 30},
-      {"id": "english-s4", "title": "Batería 4: Gramática y Sintaxis Avanzada", "questionsCount": 30}
+      {
+        "id": "english-s1",
+        "title": "Batería 1: Gramática y Sintaxis Básica",
+        "questionsCount": 30
+      },
+      {
+        "id": "english-s2",
+        "title": "Batería 2: Consolidación Gramatical",
+        "questionsCount": 30
+      },
+      {
+        "id": "english-s3",
+        "title": "Batería 3: Estructuras Intermedias",
+        "questionsCount": 30
+      },
+      {
+        "id": "english-s4",
+        "title": "Batería 4: Gramática y Sintaxis Avanzada",
+        "questionsCount": 30
+      }
     ]
   },
   {
@@ -21,12 +37,36 @@
     "description": "ORM, SQL & Persistence Systems implementation.",
     "icon": "database",
     "modules": [
-      {"id": "db-u1", "title": "Unidad 1: Gestión de Ficheros", "questionsCount": 10},
-      {"id": "db-u2", "title": "Unidad 2: Gestión de Conectores (JDBC)", "questionsCount": 10},
-      {"id": "db-u3", "title": "Unidad 3: ORM (Hibernate/JPA)", "questionsCount": 10},
-      {"id": "db-u4", "title": "Unidad 4: BBDD Objeto-Relacionales", "questionsCount": 10},
-      {"id": "db-u5", "title": "Unidad 5: BBDD XML", "questionsCount": 10},
-      {"id": "db-u6", "title": "Unidad 6: Componentes y Spring", "questionsCount": 10}
+      {
+        "id": "db-u1",
+        "title": "Unidad 1: Gestión de Ficheros",
+        "questionsCount": 10
+      },
+      {
+        "id": "db-u2",
+        "title": "Unidad 2: Gestión de Conectores (JDBC)",
+        "questionsCount": 10
+      },
+      {
+        "id": "db-u3",
+        "title": "Unidad 3: ORM (Hibernate/JPA)",
+        "questionsCount": 10
+      },
+      {
+        "id": "db-u4",
+        "title": "Unidad 4: BBDD Objeto-Relacionales",
+        "questionsCount": 10
+      },
+      {
+        "id": "db-u5",
+        "title": "Unidad 5: BBDD XML",
+        "questionsCount": 10
+      },
+      {
+        "id": "db-u6",
+        "title": "Unidad 6: Componentes y Spring",
+        "questionsCount": 10
+      }
     ]
   },
   {
@@ -37,10 +77,26 @@
     "description": "Android & Multiplatform SDKs and Native Development.",
     "icon": "smartphone",
     "modules": [
-      {"id": "pmdm-u1", "title": "Tema 1: Introducción a Android y Kotlin", "questionsCount": 30},
-      {"id": "pmdm-u2", "title": "Tema 2: Interfaz de Usuario y Actividades", "questionsCount": 40},
-      {"id": "pmdm-u3", "title": "Tema 3: Colecciones, Fragments y UI Avanzada", "questionsCount": 40},
-      {"id": "pmdm-u4", "title": "Tema 4: Kotlin Avanzado, Corrutinas y Persistencia", "questionsCount": 40}
+      {
+        "id": "pmdm-u1",
+        "title": "Tema 1: Introducción a Android y Kotlin",
+        "questionsCount": 42
+      },
+      {
+        "id": "pmdm-u2",
+        "title": "Tema 2: Interfaz de Usuario y Actividades",
+        "questionsCount": 42
+      },
+      {
+        "id": "pmdm-u3",
+        "title": "Tema 3: Colecciones, Fragments y UI Avanzada",
+        "questionsCount": 42
+      },
+      {
+        "id": "pmdm-u4",
+        "title": "Tema 4: Kotlin Avanzado, Corrutinas y Persistencia",
+        "questionsCount": 40
+      }
     ]
   },
   {
@@ -51,16 +107,56 @@
     "description": "UI/UX Design & Usability Testing for modern apps.",
     "icon": "monitor",
     "modules": [
-      {"id": "int-u1", "title": "Tema 1: Confección de Interfaces", "questionsCount": 10},
-      {"id": "int-u2", "title": "Tema 2: Interfaces XML", "questionsCount": 10},
-      {"id": "int-u3", "title": "Tema 3: Usabilidad", "questionsCount": 10},
-      {"id": "int-u4", "title": "Tema 4: Informes", "questionsCount": 10},
-      {"id": "int-u5", "title": "Tema 5: Pruebas", "questionsCount": 10},
-      {"id": "int-u6", "title": "Tema 6: Controles en Java Swing", "questionsCount": 30},
-      {"id": "int-u7", "title": "Tema 7: Principios Avanzados de Usabilidad", "questionsCount": 15},
-      {"id": "int-u8", "title": "Tema 8: XML y Lenguajes de Interfaz", "questionsCount": 45},
-      {"id": "int-u9", "title": "Tema 9: Componentes y Pruebas", "questionsCount": 45},
-      {"id": "int-u10", "title": "Tema 10: Integración de UI, BD e Informes", "questionsCount": 41}
+      {
+        "id": "int-u1",
+        "title": "Tema 1: Confección de Interfaces",
+        "questionsCount": 17
+      },
+      {
+        "id": "int-u2",
+        "title": "Tema 2: Interfaces XML",
+        "questionsCount": 17
+      },
+      {
+        "id": "int-u3",
+        "title": "Tema 3: Usabilidad",
+        "questionsCount": 17
+      },
+      {
+        "id": "int-u4",
+        "title": "Tema 4: Informes",
+        "questionsCount": 17
+      },
+      {
+        "id": "int-u5",
+        "title": "Tema 5: Pruebas",
+        "questionsCount": 17
+      },
+      {
+        "id": "int-u6",
+        "title": "Tema 6: Controles en Java Swing",
+        "questionsCount": 17
+      },
+      {
+        "id": "int-u7",
+        "title": "Tema 7: Principios Avanzados de Usabilidad",
+        "questionsCount": 17
+      },
+      {
+        "id": "int-u8",
+        "title": "Tema 8: XML y Lenguajes de Interfaz",
+        "questionsCount": 17
+      },
+      {
+        "id": "int-u9",
+        "title": "Tema 9: Componentes y Pruebas",
+        "questionsCount": 17
+      },
+      {
+        "id": "int-u10",
+        "title": "Tema 10: Integración de UI, BD e Informes",
+        "questionsCount": 8
+      }
     ]
   },
   {
@@ -71,10 +167,26 @@
     "description": "ERP & CRM Infrastructure and module integration.",
     "icon": "briefcase",
     "modules": [
-      {"id": "management-u1", "title": "Tema 1: Python POO y JSON", "questionsCount": 30},
-      {"id": "management-u2", "title": "Tema 2: Conceptos ERP", "questionsCount": 25},
-      {"id": "management-u3", "title": "Tema 3: Integración CRM y On-premise/Cloud", "questionsCount": 45},
-      {"id": "management-u4", "title": "Tema 4: Python Avanzado", "questionsCount": 37}
+      {
+        "id": "management-u1",
+        "title": "Tema 1: Python POO y JSON",
+        "questionsCount": 27
+      },
+      {
+        "id": "management-u2",
+        "title": "Tema 2: Conceptos ERP",
+        "questionsCount": 27
+      },
+      {
+        "id": "management-u3",
+        "title": "Tema 3: Integración CRM y On-premise/Cloud",
+        "questionsCount": 27
+      },
+      {
+        "id": "management-u4",
+        "title": "Tema 4: Python Avanzado",
+        "questionsCount": 26
+      }
     ]
   },
   {
@@ -85,11 +197,31 @@
     "description": "Industry 4.0 & New Tech transformation.",
     "icon": "chip",
     "modules": [
-      {"id": "dig-u1", "title": "Tema 1: Digitalización", "questionsCount": 20},
-      {"id": "dig-u2", "title": "Tema 2: La Industria 4.0", "questionsCount": 20},
-      {"id": "dig-u3", "title": "Tema 3: Computación en la Nube", "questionsCount": 20},
-      {"id": "dig-u4", "title": "Tema 4: Tecnologías Habilitadoras", "questionsCount": 20},
-      {"id": "dig-u5", "title": "Tema 5: Plan de Transformación", "questionsCount": 20}
+      {
+        "id": "dig-u1",
+        "title": "Tema 1: Digitalización",
+        "questionsCount": 16
+      },
+      {
+        "id": "dig-u2",
+        "title": "Tema 2: La Industria 4.0",
+        "questionsCount": 16
+      },
+      {
+        "id": "dig-u3",
+        "title": "Tema 3: Computación en la Nube",
+        "questionsCount": 16
+      },
+      {
+        "id": "dig-u4",
+        "title": "Tema 4: Tecnologías Habilitadoras",
+        "questionsCount": 16
+      },
+      {
+        "id": "dig-u5",
+        "title": "Tema 5: Plan de Transformación",
+        "questionsCount": 16
+      }
     ]
   },
   {
@@ -100,11 +232,31 @@
     "description": "Professional Soft Skills and job market entry.",
     "icon": "user",
     "modules": [
-      {"id": "emp-u1", "title": "Tema 1: La Inserción Laboral", "questionsCount": 20},
-      {"id": "emp-u2", "title": "Tema 2: Habilidades y Gestión Personal", "questionsCount": 20},
-      {"id": "emp-u3", "title": "Tema 3: Innovación y Emprendimiento", "questionsCount": 20},
-      {"id": "emp-u4", "title": "Tema 4: Idea Empresarial y Proyectos", "questionsCount": 20},
-      {"id": "emp-u5", "title": "Tema 5: Sostenibilidad Social", "questionsCount": 20}
+      {
+        "id": "emp-u1",
+        "title": "Tema 1: La Inserción Laboral",
+        "questionsCount": 20
+      },
+      {
+        "id": "emp-u2",
+        "title": "Tema 2: Habilidades y Gestión Personal",
+        "questionsCount": 20
+      },
+      {
+        "id": "emp-u3",
+        "title": "Tema 3: Innovación y Emprendimiento",
+        "questionsCount": 20
+      },
+      {
+        "id": "emp-u4",
+        "title": "Tema 4: Idea Empresarial y Proyectos",
+        "questionsCount": 20
+      },
+      {
+        "id": "emp-u5",
+        "title": "Tema 5: Sostenibilidad Social",
+        "questionsCount": 20
+      }
     ]
   },
   {
@@ -115,14 +267,76 @@
     "description": "Green Computing & Impact of IT systems.",
     "icon": "leaf",
     "modules": [
-      {"id": "sus-u1", "title": "Tema 1: Huella Ecológica", "questionsCount": 20},
-      {"id": "sus-u2", "title": "Tema 2: Producción Responsable", "questionsCount": 20},
-      {"id": "sus-u3", "title": "Tema 3: Modelo Circular", "questionsCount": 20},
-      {"id": "sus-u4", "title": "Tema 4: Agenda 2030", "questionsCount": 20},
-      {"id": "sus-u5", "title": "Tema 5: Metas Ambientales", "questionsCount": 20},
-      {"id": "sus-u6", "title": "Tema 6: Metas Sociales", "questionsCount": 20},
-      {"id": "sus-u7", "title": "Tema 7: RSC", "questionsCount": 20},
-      {"id": "sus-u8", "title": "Tema 8: Prácticas Sostenibles", "questionsCount": 20}
+      {
+        "id": "sus-u1",
+        "title": "Tema 1: Huella Ecológica",
+        "questionsCount": 20
+      },
+      {
+        "id": "sus-u2",
+        "title": "Tema 2: Producción Responsable",
+        "questionsCount": 20
+      },
+      {
+        "id": "sus-u3",
+        "title": "Tema 3: Modelo Circular",
+        "questionsCount": 20
+      },
+      {
+        "id": "sus-u4",
+        "title": "Tema 4: Agenda 2030",
+        "questionsCount": 20
+      },
+      {
+        "id": "sus-u5",
+        "title": "Tema 5: Metas Ambientales",
+        "questionsCount": 20
+      },
+      {
+        "id": "sus-u6",
+        "title": "Tema 6: Metas Sociales",
+        "questionsCount": 20
+      },
+      {
+        "id": "sus-u7",
+        "title": "Tema 7: RSC",
+        "questionsCount": 20
+      },
+      {
+        "id": "sus-u8",
+        "title": "Tema 8: Prácticas Sostenibles",
+        "questionsCount": 20
+      }
+    ]
+  },
+  {
+    "id": "psp",
+    "name": "Servicios y Procesos",
+    "code": "MOD_09",
+    "color": "red",
+    "description": "Programación de Servicios y Procesos, Seguridad y Concurrencia.",
+    "icon": "server",
+    "modules": [
+      {
+        "id": "psp-u1",
+        "title": "Tema 1",
+        "questionsCount": 21
+      },
+      {
+        "id": "psp-u2",
+        "title": "Tema 2",
+        "questionsCount": 21
+      },
+      {
+        "id": "psp-u3",
+        "title": "Tema 3",
+        "questionsCount": 21
+      },
+      {
+        "id": "psp-u4",
+        "title": "Tema 4",
+        "questionsCount": 20
+      }
     ]
   }
 ]
