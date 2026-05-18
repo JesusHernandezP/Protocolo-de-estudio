@@ -1,40 +1,86 @@
-# 🌌 Los Juegos del DAM
+# 🧠 Protocolo de Estudio FP
 
-Una plataforma de estudio inmersiva, de estética *cyberpunk* / futurista, diseñada para preparar y superar los exámenes del ciclo formativo de Desarrollo de Aplicaciones Multiplataforma (DAM). 
 
-## 🚀 Despliegue Rápido en Vercel
+Plataforma interactiva de preparación para exámenes FP DAM con estética futurista/cyberpunk y experiencia mobile-first.
 
-Este proyecto está listo para ser desplegado fácilmente en Vercel. 
+Desarrollada como una SPA ligera orientada a mejorar la experiencia de estudio mediante simuladores, navegación inmersiva y progreso persistente.
 
-1. **Sube el código a GitHub:**
-   - Abre tu terminal en la carpeta de este proyecto.
-   - Si no has inicializado un repositorio, ejecuta: `git init`
-   - Agrega los archivos: `git add .`
-   - Haz un commit: `git commit -m "feat: versión final"`
-   - Conéctalo a tu repositorio remoto en GitHub: `git remote add origin <URL-de-tu-repo>`
-   - Empuja el código: `git push -u origin main`
+---
 
-2. **Importa en Vercel:**
-   - Ve a [Vercel](https://vercel.com/new).
-   - Conecta tu cuenta de GitHub e importa el repositorio que acabas de subir.
-   - Vercel detectará automáticamente **Vite**.
-   - **Framework Preset**: Vite
-   - **Build Command**: `npm run build` o `vite build`
-   - **Output Directory**: `dist`
-   - Haz clic en **Deploy**.
+# 🚀 Objetivo
 
-## 🛠️ Tecnologías Utilizadas
+Crear una herramienta visual e interactiva para apoyar la preparación técnica de estudiantes de Desarrollo de Aplicaciones Multiplataforma (DAM).
 
-- **Frontend:** HTML5, JavaScript (ES6+), CSS3
-- **Estilos:** Tailwind CSS v4 + Animaciones personalizadas
-- **Herramientas de construcción:** Vite
-- **Iconografía:** Lucide React (vía CDN en el prototipo final)
+La aplicación prioriza:
 
-## 🧩 Características
+- experiencia de usuario fluida
+- navegación rápida
+- diseño responsive
+- interacción dinámica
+- experiencia inmersiva de estudio
+- apoyo instantaneo con IA
 
-- **Diseño Responsivo e Inmersivo**: Interfaz "estilo terminal", con scanlines y modo neón. Navegación en cascada y scroll espía.
-- **Protocolo de Estudio Activo**: Simulador de test riguroso pero interactivo.
-- **Progreso Persistente**: Uso de `localStorage` para guardar de forma local las puntuaciones conseguidas en simulacros y repeticiones.
-- **Rutado SPA sin recargas**: Sistema construido en JavaScript Vanilla con Hash Routing (`#/home`, `#/modules`, etc.) optimizado para fluidez y para no saturar al usuario con recargas innecesarias.
+---
 
-¡Que los Juegos del DAM comiencen, y que las variables siempre estén a tu favor!
+# 🛠 Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Tailwind CSS
+- Vite
+- Integración de IA
+
+---
+
+# ✨ Características principales
+
+- Interfaz futurista estilo cyberpunk
+- Arquitectura SPA sin recargas
+- Navegación por módulos y simuladores
+- Sistema de progreso persistente con localStorage
+- Diseño responsive mobile-first
+- Experiencia optimizada para escritorio y móvil
+
+---
+
+# 📚 Funcionalidades
+
+- Simuladores de examen
+- Navegación interactiva
+- Scroll dinámico
+- Guardado local de progreso
+- Flujo de estudio gamificado
+  
+---
+
+# 🤖 IA integrada
+
+El proyecto incorpora funcionalidades asistidas por inteligencia artificial para mejorar la experiencia de aprendizaje y preparación técnica, incluyendo generación dinámica de contenido y apoyo interactivo al estudio.
+
+---
+
+# 🌐 Demo
+
+🔗 https://bateria-de-examenes.vercel.app
+
+---
+
+# 📂 Repositorio
+
+🔗 https://github.com/JesusHernandezP/Protocolo-de-estudio
+
+---
+
+# 👨‍💻 Autor
+
+Jesús Hernández
+
+- GitHub:  
+  https://github.com/JesusHernandezP
+
+- LinkedIn:  
+  https://www.linkedin.com/in/jesushernandezp/
+
+- Portfolio:  
+  https://jesus-hernandez.es
